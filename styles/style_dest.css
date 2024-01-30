@@ -1,0 +1,165 @@
+#mainCont {
+    background-color: #e5e7eb;
+    height: 850px;
+    position: relative;
+}
+
+#mainCont h1 {
+    color: #1f2937;
+}
+
+#mainCont p {
+    color: #1f2937;
+}
+
+.pictContainer {
+    width: 70%;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 10px;
+    border: 3px solid #1f2937;
+    border-radius: 10px;
+    position: relative;
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+}
+
+.appContentContainer {
+    padding: 10px;
+    border: 3px solid #1f2937;
+    border-radius: 10px;
+}
+
+.img {
+    width: 350px;
+    height: 250px;
+}
+
+.pos-1 {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.pos-2 {
+    position: absolute;
+    top: 50px;
+    left: 260px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.pos-3 {
+    position: absolute;
+    top: 50px;
+    left: 420px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.pos-4 {
+    position: absolute;
+    top: 50px;
+    left: 580px;
+}
+
+.pos-5 {
+    position: absolute;
+    top: 50px;
+    left: 740px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.pos-6 {
+    position: absolute;
+    top: 50px;
+    left: 900px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.pos-1:hover {
+    z-index: 1;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.pos-2:hover {
+    z-index: 1;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.pos-3:hover {
+    z-index: 1;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.pos-4:hover {
+    z-index: 1;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.pos-5:hover {
+    z-index: 1;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.pos-6:hover {
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    border: 2px solid #1f2937;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.card p {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.card a {
+    max-width: 200px;
+    height: 200px;
+    max-height: 200px;
+}
+
+.card img {
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+    ;
+}
+
+.cardFig {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.card:hover {
+    background-color: rgb(62, 60, 60, 0.2);
+}
+
+.quotes {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.qoute {
+    border: 1px solid #1f2937;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.inspiringQuote h3 {
+    margin-bottom: 10px;
+}

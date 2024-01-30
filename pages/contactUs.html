@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact Us</title>
+</head>
+<body>
+  <header class="mainHeader">
+    <section class="appContentContainer">
+      <span class="headerLogo"><a href="../index.html" class="redirectLink">Madhuram Chemicals</a></span>
+      <div class="topnav" id="myTopnav">
+        <a href="../index.html" >Home</a>
+        <a href="./aboutUs.html">About Us</a>
+        <a href="./pages/contactUs.html" class="active">Madhuram Chemicals</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="mainContent">
+      <div class="appContentContainer">
+        <div class="siteSubHeader">
+          <h1 class="subPageHeader">Contact Us</h1>
+          <nav aria-label="Breadcrumb">
+            <ul class="breadcrumb">
+              <li><a href="../index.html">Home</a></li>
+              <li>Contact Us</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <section class="formContainer">
+      <form class="formFieldset">
+        <input type="text" placeholder="Enter your Name" required><br><br>
+        <input type="email" placeholder="Enter your email" required><br><br>
+        <textarea placeholder="Enter your message"></textarea>
+        <div class="usersubmit">
+          <input type="submit" value="Contact Us">
+        </div>
+      </form>
+    </section>
+    <section>
+    <section class="rowCard">
+      <div class="ContactCard">
+        <span class="contactLabel">Call</span><br>
+        <a href="tel:+7894564133" class="contactRedirect">7894564133</a>
+      </div>
+      <div class="ContactCard">             
+        <span class="contactLabel">Email</span><br>
+        <a href="mailto:kapadiad2@mymacewan.ca" class="contactRedirect">kapadiad2@mymacewan.ca</a>
+      </div>
+      <address class="ContactCard">
+        <span class="contactLabel">Visit</span><br>
+        <p>Allard Hall
+        110ST 104 Avenue </br>
+        Downtown </br>
+        Edmonton, AB 31313 <br>
+      </address>
+    </section>
+    <!-- <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+    src="https://maps.app.goo.gl/2y4mkXYxeMgAhEVd6">
+    </iframe> -->
+  </main>
+  <footer class="footer">
+    <p>Copyright <strong>©</strong></p>
+  </footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+</body>
+</body>
+</html>
